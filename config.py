@@ -12,11 +12,11 @@ API_HASH = getenv("API_HASH", "27cdbce9ac58e83cec07e1147d9c9e05")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "5984358830:AAGmE69I4TDub4vhpXwU1EXP4tktzWVGrL8")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ammu:fradu@cluster0.h0nt8me.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://prajeenthegrate:prajeenthegrate@cluster0.kmkxk4j.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001830069963"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "One Love Music")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6021591808 5429263714").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6021591808 6041018391").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/king_of_izzyy")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/melting_mooon")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Melting_mooonn")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/melting_moon")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Melting_moon")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "999"))
